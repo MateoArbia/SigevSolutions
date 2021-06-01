@@ -9,6 +9,61 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand navTitulo col-lg-6 col-xl-8" href="../index.html">Sigev Solutions</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav col-lg-6 col-xl-4">
+                        <a class="nav-link navSecciones" href="../index.html">Inicio</a>
+                        <a class="nav-link navSecciones" href="nosotros.html">Nosotros</a>
+                        <a class="nav-link navSecciones" href="producto.html">Productos</a>
+                        <a class="nav-link navSecciones" href="galeria.html">Galeria</a>
+                        <a class="nav-link active navSecciones" aria-current="page" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <hr/>
+    </header>
+    <section class="container">
+        <h2 class="text-center">Contacto</h2>
+        <form class="formSize" action="gracias_enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+            <div class="form-group">
+                <label for="nombre">Nombre</label><br>
+                <input type="text" class="form-group" name="nombre"><br>
+                <label for="mail">Mail</label><br>
+                <input type="email" class="form-group" name="mail"><br>
+            </div>
+            <label for="motivo">Motivo</label><br>
+            <select name="Motivo">
+                <option value="0">--------</option>
+                <option value="C">Consulta</option>
+                <option value="R">Reclamo</option>
+                <option value="I">Info</option>
+            </select><br>
+            <label for="comentario">Ingrese su comentario</label><br>
+                <textarea name="comentario">
+
+                </textarea><br>
+            <label for="acepta">Desea recibir novedades sobre nuestros productos</label>
+                <input type="checkbox" name="acepta" value="1"><br>
+                <input type="submit">
+                <input type="reset" value="Borrar"><br>
+        </form>
+    </section>
+    <footer>
+    <hr/>
+    <div class="container">
+        <h2>Contacto</h2>
+        <p>Dirección: Terrero 1180, CABA</p>
+        <p>Telefono: 4581-1939 / 15 4074-1583</p>
+        <p>Mail: silicagelventas@gmail.com</p>
+    </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
