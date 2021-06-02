@@ -1,0 +1,41 @@
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #373737;
+    z-index: 10;
+        h1 {
+            padding: 10px 0px 0px 10px;
+                a {
+                    color: #8d76f5;
+                    font-size: 35px;
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-family: 'Quicksand', sans-serif;
+                    text-transform: uppercase;
+                }
+        }
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+                ul {
+                    overflow: hidden;
+                    list-style-type: none;
+                        li {
+                            float: left;
+                            margin: 10px;
+                                a {
+                                    font-size: 20px;
+                                    font-family: 'Quicksand', sans-serif;
+                                    display: inline-block;
+                                    font-weight: 300;
+                                }
+                        }
+                }
+        }
+        
+}
+
+nav ul li a:hover {
+    background-color: #3f3e3e;
+}

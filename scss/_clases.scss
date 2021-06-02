@@ -1,0 +1,40 @@
+.formSize {
+    width: 60%;
+    margin: auto;
+}
+
+.carouselSize {
+    width: 60%;
+    margin: auto;
+}
+
+.navTitulo {
+    color: #8d76f5;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+
+.navSecciones {
+    color: #6F8AB7;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    font-weight: 300;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    border: 1px solid #6F8AB7;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(111, 138, 183)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav {
+    padding-left: 10px;
+}

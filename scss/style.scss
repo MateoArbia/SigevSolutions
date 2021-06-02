@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #3f3e3e;
+}
+
+@import "header.scss";
+
+main section div p {
+    color: #6F8AB7;
+    font-size: 2.2rem;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.5px;
+    width: 90%;
+    padding: 30px
+}
+
+@import "section.scss";
+
+@import "footer.scss";
+
+form {
+    color: #6F8AB7;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+}
+
+@import "clases.scss";
+
+@media (max-width: 576px) {
+    .navTitulo {
+        font-size: 25px;
+    }
+
+    .navSecciones {
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    main section div p {
+        font-size: 1rem;
+    }
+
+    .carouselSize {
+        width: 100%;
+        margin: auto;
+    }
+
+    footer h2 {
+        font-size: 15px;
+    }
+    
+    footer p {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    
+    section div h2 {
+        font-size: 15px;
+    }
+    
+    section div p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .navTitulo {
+        font-size: 35px;
+    }
+
+    .navSecciones {
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    main section div p {
+        font-size: 1.7rem;
+    }
+
+    .carouselSize {
+        width: 100%;
+        margin: auto;
+    }
+
+    footer h2 {
+        font-size: 17px;
+    }
+    
+    footer p {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+    
+    section div h2 {
+        font-size: 15px;
+    }
+    
+    section div p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    main section div p {
+        font-size: 1.7rem;
+    }
+
+    .carouselSize {
+        width: 100%;
+        margin: auto;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+    
+    footer p {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+    
+    section div h2 {
+        font-size: 20px;
+    }
+    
+    section div p {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    main section div p {
+        font-size: 2rem;
+    }
+
+    .carouselSize {
+        width: 90%;
+        margin: auto;
+    }
+
+    footer h2 {
+        font-size: 25px;
+    }
+    
+    footer p {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+    
+    section div h2 {
+        font-size: 25px;
+    }
+    
+    section div p {
+        font-size: 20px;
+    }
+}
