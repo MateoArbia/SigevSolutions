@@ -71,7 +71,9 @@ section div p {
   font-size: medium; }
 
 footer {
-  background-color: #373737; }
+  background-color: #373737;
+  position: static;
+  bottom: 200px; }
   footer div h2 {
     color: #8d76f5;
     font-size: 19px;
@@ -97,6 +99,9 @@ form {
 .carouselSize {
   width: 60%;
   margin: auto; }
+
+.cardColor {
+  background-color: #4d4d4d; }
 
 .navTitulo {
   color: #8d76f5;
