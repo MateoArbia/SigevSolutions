@@ -1,14 +1,23 @@
 footer {
     background-color: #373737;
-        h2 {
-            color: #8d76f5;
-            font-size: 20px;
-            font-family: 'Quicksand', sans-serif;
-            text-decoration: none;
+        div {
+            h2 {
+                color: #8d76f5;
+                font-size: 20px;
+                font-family: 'Quicksand', sans-serif;
+                text-decoration: none;
+            }
+            p {
+                color: #6F8AB7;
+                font-family: 'Quicksand', sans-serif;
+                font-size: medium;
+            }
         }
-        p {
-            color: #6F8AB7;
-            font-family: 'Quicksand', sans-serif;
-            font-size: medium;
+        div {
+            a {
+                img {
+                    width: 3.5%;
+                }
+            }
         }
 }

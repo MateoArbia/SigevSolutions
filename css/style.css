@@ -72,15 +72,17 @@ section div p {
 
 footer {
   background-color: #373737; }
-  footer h2 {
+  footer div h2 {
     color: #8d76f5;
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
     text-decoration: none; }
-  footer p {
+  footer div p {
     color: #6F8AB7;
     font-family: 'Quicksand', sans-serif;
     font-size: medium; }
+  footer div a img {
+    width: 3.5%; }
 
 form {
   color: #6F8AB7;
