@@ -136,7 +136,7 @@ form {
     font-size: 15px;
     text-decoration: none; }
   main section div p {
-    font-size: 1rem; }
+    font-size: 1.5rem; }
   .carouselSize {
     width: 100%;
     margin: auto; }
@@ -144,6 +144,8 @@ form {
     font-size: 15px; }
   footer p {
     font-size: 12px; }
+  footer div a img {
+    width: 5%; }
   h2 {
     font-size: 20px; }
   section div h2 {
@@ -166,6 +168,8 @@ form {
     font-size: 17px; }
   footer p {
     font-size: 15px; }
+  footer div a img {
+    width: 6%; }
   h2 {
     font-size: 25px; }
   section div h2 {
@@ -183,6 +187,8 @@ form {
     font-size: 20px; }
   footer p {
     font-size: 15px; }
+  footer div a img {
+    width: 5.4%; }
   h2 {
     font-size: 30px; }
   section div h2 {
@@ -200,6 +206,8 @@ form {
     font-size: 25px; }
   footer p {
     font-size: 20px; }
+  footer div a img {
+    width: 4.5%; }
   h2 {
     font-size: 35px; }
   section div h2 {
