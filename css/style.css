@@ -101,6 +101,9 @@ form {
   padding-bottom: 15px;
   padding-top: 15px; }
 
+#productoImgPadding {
+  padding: 10px; }
+
 .carouselSize {
   width: 60%;
   margin: auto; }
