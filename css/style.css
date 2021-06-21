@@ -96,10 +96,12 @@ form {
   width: 20%;
   margin: auto; }
 
-#contactoText {
-  font-size: 2rem;
-  padding-bottom: 15px;
-  padding-top: 15px; }
+.formDisplay {
+  display: flex;
+  justify-content: flex-start; }
+
+.contactSubmitPadding {
+  padding-bottom: 10px; }
 
 #productoImgPadding {
   padding: 10px; }
