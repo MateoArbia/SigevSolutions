@@ -1,22 +1,22 @@
-.formSize {
-    width: 20%;
-    margin: auto;
-}
-
 .formDisplay {
     display: flex;
     justify-content: flex-start;
 }
 
-.contactSubmitPadding {
-    padding-bottom: 10px;
+.formSize {
+    width: 20%;
+    margin: auto;
+}
+
+.contactSubmitMargin {
+    margin-bottom: 10px;
 }
 
 #productoImgPadding {
     padding: 10px;
 }
 
-.carouselSize {
+.carouselStyle {
     width: 60%;
     margin: auto;
 }
@@ -29,8 +29,10 @@
     padding-bottom: 15px;
 }
 
-.cardColor {
+.cardStyle {
     background-color: #4d4d4d;
+    margin: 5px;
+    width: 50rem;
 }
 
 .navTitulo {

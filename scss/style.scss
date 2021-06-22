@@ -49,9 +49,10 @@ form {
         font-size: 1.5rem;
     }
 
-    .carouselSize {
+    .carouselStyle {
         width: 100%;
         margin: auto;
+        justify-content: center;
     }
 
     footer h2 {
@@ -63,7 +64,7 @@ form {
     }
 
     footer div a img {
-        width: 5%
+        width: 10%
     }
 
     h2 {
@@ -76,6 +77,15 @@ form {
     
     section div p {
         font-size: 12px;
+    }
+
+    section div img {
+        width: 95%
+    }
+
+    .formSize {
+        width: 80%;
+        margin: auto;
     }
 }
 
@@ -93,7 +103,7 @@ form {
         font-size: 1.7rem;
     }
 
-    .carouselSize {
+    .carouselStyle {
         width: 100%;
         margin: auto;
     }
@@ -121,6 +131,15 @@ form {
     section div p {
         font-size: 12px;
     }
+
+    section div img {
+        width: 95%
+    }
+
+    .formSize {
+        width: 50%;
+        margin: auto;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -128,7 +147,7 @@ form {
         font-size: 1.7rem;
     }
 
-    .carouselSize {
+    .carouselStyle {
         width: 100%;
         margin: auto;
     }
@@ -156,6 +175,15 @@ form {
     section div p {
         font-size: 17px;
     }
+
+    section div img {
+        width: 95%
+    }
+
+    .formSize {
+        width: 35%;
+        margin: auto;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -163,7 +191,7 @@ form {
         font-size: 2rem;
     }
 
-    .carouselSize {
+    .carouselStyle {
         width: 90%;
         margin: auto;
     }
@@ -190,5 +218,18 @@ form {
     
     section div p {
         font-size: 20px;
+    }
+
+    .cardStyle {
+        width: 40rem
+    }
+
+    section div img {
+        width: 95%
+    }
+
+    .formSize {
+        width: 30%;
+        margin: auto;
     }
 }
