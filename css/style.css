@@ -160,9 +160,9 @@ form {
   main section div p {
     font-size: 1.5rem; }
   .carouselStyle {
-    width: 100%;
-    margin: auto;
-    justify-content: center; }
+    width: 100%; }
+  .carouselResponsiveMargin {
+    margin-left: 7px; }
   footer h2 {
     font-size: 15px; }
   footer p {
@@ -192,6 +192,8 @@ form {
   .carouselStyle {
     width: 100%;
     margin: auto; }
+  .carouselResponsiveMargin {
+    margin-left: 10px; }
   footer h2 {
     font-size: 17px; }
   footer p {

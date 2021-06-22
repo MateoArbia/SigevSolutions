@@ -51,8 +51,10 @@ form {
 
     .carouselStyle {
         width: 100%;
-        margin: auto;
-        justify-content: center;
+    }
+
+    .carouselResponsiveMargin {
+        margin-left: 7px;
     }
 
     footer h2 {
@@ -106,6 +108,10 @@ form {
     .carouselStyle {
         width: 100%;
         margin: auto;
+    }
+
+    .carouselResponsiveMargin {
+        margin-left: 10px;
     }
 
     footer h2 {
