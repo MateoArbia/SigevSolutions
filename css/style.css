@@ -61,14 +61,14 @@ h2 {
 section div h2 {
   color: #8d76f5;
   font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   text-decoration: none; }
 
 section div p {
   color: #6F8AB7;
   font-family: 'Quicksand', sans-serif;
-  font-size: medium; }
+  font-size: 20px; }
 
 section div img {
   width: 60%; }
@@ -76,16 +76,17 @@ section div img {
 footer {
   background-color: #373737;
   position: static;
-  bottom: 200px; }
+  bottom: 200px;
+  padding: 10px; }
   footer div h2 {
     color: #8d76f5;
-    font-size: 19px;
+    font-size: 25px;
     font-family: 'Quicksand', sans-serif;
     text-decoration: none; }
   footer div p {
     color: #6F8AB7;
     font-family: 'Quicksand', sans-serif;
-    font-size: 15px; }
+    font-size: 20px; }
   footer div a img {
     width: 3%;
     padding-bottom: 10px;
@@ -95,6 +96,9 @@ form {
   color: #6F8AB7;
   font-family: 'Quicksand', sans-serif;
   font-size: 2rem; }
+
+#navCurrentPage {
+  font-weight: bold; }
 
 .formDisplay {
   display: flex;
@@ -116,6 +120,9 @@ form {
 
 #paddingFooter {
   padding-bottom: 30px; }
+
+#imageMargin {
+  padding: 20px; }
 
 #imagePaddingBottom {
   padding-bottom: 15px; }
@@ -163,18 +170,18 @@ form {
     width: 100%; }
   .carouselResponsiveMargin {
     margin-left: 7px; }
-  footer h2 {
-    font-size: 15px; }
-  footer p {
-    font-size: 12px; }
+  footer div h2 {
+    font-size: 22px; }
+  footer div p {
+    font-size: 18px; }
   footer div a img {
     width: 10%; }
   h2 {
-    font-size: 20px; }
+    font-size: 25px; }
   section div h2 {
-    font-size: 15px; }
+    font-size: 22px; }
   section div p {
-    font-size: 12px; }
+    font-size: 18px; }
   section div img {
     width: 95%; }
   .formSize {
@@ -194,18 +201,18 @@ form {
     margin: auto; }
   .carouselResponsiveMargin {
     margin-left: 10px; }
-  footer h2 {
-    font-size: 17px; }
-  footer p {
-    font-size: 15px; }
+  footer div h2 {
+    font-size: 25px; }
+  footer div p {
+    font-size: 20px; }
   footer div a img {
     width: 6%; }
   h2 {
     font-size: 25px; }
   section div h2 {
-    font-size: 15px; }
+    font-size: 22px; }
   section div p {
-    font-size: 12px; }
+    font-size: 18px; }
   section div img {
     width: 95%; }
   .formSize {
@@ -218,18 +225,18 @@ form {
   .carouselStyle {
     width: 100%;
     margin: auto; }
-  footer h2 {
+  footer div h2 {
+    font-size: 25px; }
+  footer div p {
     font-size: 20px; }
-  footer p {
-    font-size: 15px; }
   footer div a img {
     width: 5.4%; }
   h2 {
     font-size: 30px; }
   section div h2 {
-    font-size: 20px; }
+    font-size: 22px; }
   section div p {
-    font-size: 17px; }
+    font-size: 18px; }
   section div img {
     width: 95%; }
   .formSize {
@@ -242,10 +249,10 @@ form {
   .carouselStyle {
     width: 90%;
     margin: auto; }
-  footer h2 {
-    font-size: 25px; }
-  footer p {
-    font-size: 20px; }
+  footer div h2 {
+    font-size: 27px; }
+  footer div p {
+    font-size: 22px; }
   footer div a img {
     width: 4.5%; }
   h2 {
